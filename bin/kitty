@@ -143,8 +143,129 @@ class Kitty
     HERE KITTY KITTY
   end
 
+  def stretch_kitty
+    stretch_kitty = <<-'HERE KITTY KITTY'
+            _,'|             _.-''``-...___..--';)
+           /_ \'.      __..-' ,      ,--...--'''
+          <\    .`--'''       `     /'
+           `-';'               ;   ; ;
+     __...--''     ___...--_..'  .;.'
+    (,__....----'''       (,..--''
+    HERE KITTY KITTY
+  end
+
+  def tail_kitty
+    tail_kitty = <<-'HERE KITTY KITTY'
+                                 _
+                                | \
+                                | |
+                                | |
+           |\                   | |
+          /, ~\                / /
+         X     `-.....-------./ /
+          ~-. ~  ~              |
+             \             /    |
+              \  /_     ___\   /
+              | /\ ~~~~~   \ |
+              | | \        || |
+              | |\ \       || )
+             (_/ (_/      ((_/
+    
+    HERE KITTY KITTY
+  end
+
+  def scared_kitty
+    scared_kitty = <<-'HERE KITTY KITTY'
+         /\_/\
+    /\  / o o \
+   //\\ \~(*)~/
+   `  \/   ^ /
+      | \|| ||  
+      \ '|| ||  
+       \)()-())
+    HERE KITTY KITTY
+  end
+
+  def dumb_kitty
+    dumb_kitty = <<-'HERE KITTY KITTY'
+       /\     /\
+      {  `---'  }
+      {  O   O  }  
+    ~~|~   V   ~|~~  
+       \  \|/  /   
+        `-----'__
+        /     \  `^\_
+       {       }\ |\_\_   W
+       |  \_/  |/ /  \_\_( )
+        \__/  /(_E     \__/
+          (  /
+           MM
+    HERE KITTY KITTY
+  end
+
+  def crazy_kitty
+    crazy_kitty = <<-'HERE KITTY KITTY'
+                 ._
+              .-'  `-.
+           .-'        \
+          ;    .-'\    ;
+          `._.'    ;   |
+                   |   |
+                   ;   :
+                  ;   :
+                  ;   :
+                 /   /
+                ;   :                   ,
+                ;   |               .-"7|
+              .-'"  :            .-' .' :
+           .-'       \         .'  .'   `.
+         .'           `-. ""-.-'`""    `",`-._..--"7
+         ;    .          `-.J `-,    ;"`.;|,_,    ;
+       _.'    |         `"" `. ."""--. o \:.-. _.'
+    .""       :            ,--`;   ,  `--/}o,' ;
+    ;   .___.'        /     ,--.`-. `-..7_.-  /_
+     \   :   `..__.._;    .'__;    `---..__.-'-.`"-,
+     .'   `--. |   \_;    \'   `-._.-")     \\  `-,
+     `.   -.`_):      `.   `-"""`.   ;__.' ;/ ;   "
+       `-.__7"  `-..._.'`7     -._;'  ``"-''
+                         `--.,__.'
+    HERE KITTY KITTY
+  end
+
+  def dominant_kitty
+    dominant_kitty = <<-'HERE KITTY KITTY'
+            /\
+            \ \
+             \ \
+             / /
+            / /
+           _\ \_/\/\
+          /  *  \@@ =
+         |       |Y/
+         |       |~
+          \ /_\ /
+           \\ //
+            |||
+           _|||_
+          ( / \ )
+    HERE KITTY KITTY
+  end
+
   def all_kitties
-    [night_kitty, pounce_kitty, face_kitty, sleep_kitty, chub_kitty, curious_kitty, proud_kitty]
+    [ night_kitty,
+      pounce_kitty,
+      face_kitty,
+      sleep_kitty,
+      chub_kitty,
+      curious_kitty,
+      proud_kitty,
+      stretch_kitty,
+      tail_kitty,
+      scared_kitty,
+      dumb_kitty,
+      crazy_kitty,
+      dominant_kitty
+    ]
   end
 
   def random_kitty
