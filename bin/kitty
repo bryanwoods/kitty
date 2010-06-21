@@ -143,12 +143,12 @@ class Kitty
     HERE KITTY KITTY
   end
 
-  def all_kittys
+  def all_kitties
     [night_kitty, pounce_kitty, face_kitty, sleep_kitty, chub_kitty, curious_kitty, proud_kitty]
   end
 
   def random_kitty
-    print all_kittys[rand(all_kittys.length)]
+    print all_kitties[rand(all_kitties.length)]
   end
 end
 
