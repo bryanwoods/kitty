@@ -273,6 +273,23 @@ class Kitty
   end
 end
 
+require 'optparse'
+
+options = { :count => 1 }
+OptionParser.new do |opts|
+  opts.banner = "Usage #{__FILE__} [options]"
+  opts.on("-c N", "--count N", "How many kitties do you want?") do |count|
+    options[:count] = count.to_i
+  end
+
+  opts.on_tail("-h", "--help", "Show this message") do
+    puts opts
+    exit
+  end
+end.parse!
+
 kitty = Kitty.new
-kitty.random_kitty
+options[:count].times do
+  kitty.random_kitty
+end
 
