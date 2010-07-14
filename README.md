@@ -5,8 +5,8 @@ Installation:
 Then run `kitty` to brighten up your day!
 
 
-Now with more options!:
-=======================
+Now with options!:
+==================
     kitty -c 5 # Prints 5 kitties
     kitty -c 100 # Unbelievably prints 100 kitties!
 
