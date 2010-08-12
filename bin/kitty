@@ -67,6 +67,66 @@ class Kitty
     HERE KITTY KITTY
   end
 
+  def serious_kitty
+    <<-'HERE KITTY KITTY'
+                  ;,_            ,
+                 _uP~"b          d"u,
+                dP'   "b       ,d"  "o
+               d"    , `b     d"'    "b
+              l] [    " `l,  d"       lb
+              Ol ?     "  "b`"=uoqo,_  "l
+            ,dBb "b        "b,    `"~~TObup,_
+          ,d" (db.`"         ""     "tbc,_ `~"Yuu,_
+        .d" l`T'  '=                      ~     `""Yu,
+      ,dO` gP,                           `u,   b,_  "b7
+     d?' ,d" l,                           `"b,_ `~b  "1
+   ,8i' dl   `l                 ,ggQOV",dbgq,._"  `l  lb
+  .df' (O,    "             ,ggQY"~  , @@@@@d"bd~  `b "1
+ .df'   `"           -=@QgpOY""     (b  @@@@P db    `Lp"b,
+.d(                  _               "ko "=d_,Q`  ,_  "  "b,
+Ql         .         `"qo,._          "tQo,_`""bo ;tb,    `"b,
+qQ         |L           ~"QQQgggc,_.,dObc,opooO  `"~~";.   __,7,
+qp         t\io,_           `~"TOOggQV""""        _,dg,_ =PIQHib.
+`qp        `Q["tQQQo,_                          ,pl{QOP"'   7AFR`
+  `         `tb  '""tQQQg,_             p" "b   `       .;-.`Vl'
+             "Yb      `"tQOOo,__    _,edb    ` .__   /`/'|  |b;=;.__
+                           `"tQQQOOOOP""`"\QV;qQObob"`-._`\_~~-._
+                                """"    ._        /   | |oP"\_   ~\ ~\_~\
+                                        `~"\ic,qggddOOP"|  |  ~\   `\~-._
+                                          ,qP`"""|"   | `\ `;   `\   `\
+                               _        _,p"     |    |   `\`;    |    |
+       unknown                 "boo,._dP"       `\_  `\    `\|   `\   ;
+                                 `"7tY~'            `\  `\    `|_   |
+                                                      `~\  |
+    HERE KITTY KITTY
+  end
+
+  def full_double_kitty
+    <<-'HERE KITTY KITTY'
+            *     ,MMM8&&&.            *
+                  MMMM88&&&&&    .
+                 MMMM88&&&&&&&
+     *           MMM88&&&&&&&&
+                 MMM88&&&&&&&&
+                 'MMM88&&&&&&'
+                   'MMM8&&&'      *
+          |\___/|     /\___/\
+          )     (     )    ~( .              '
+         =\     /=   =\~    /=
+           )===(       ) ~ (
+          /     \     /     \
+          |     |     ) ~   (
+         /       \   /     ~ \
+         \       /   \~     ~/
+  jgs_/\_/\__  _/_/\_/\__~__/_/\_/\_/\_/\_/\_
+  |  |  |  |( (  |  |  | ))  |  |  |  |  |  |
+  |  |  |  | ) ) |  |  |//|  |  |  |  |  |  |
+  |  |  |  |(_(  |  |  (( |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |\)|  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+    HERE KITTY KITTY
+  end
+
   def chub_kitty
     chub_kitty = <<-'HERE KITTY KITTY'
                 .                .                    
@@ -97,6 +157,38 @@ class Kitty
            /         .__  __.         \               
           : / ,       / "" \       . \ ;
            "-:___..--"      "--..___;-"    
+    HERE KITTY KITTY
+  end
+
+  def tiny_kitty
+    <<-'HERE KITTY KITTY'
+
+    )   _. mmeeoowwrr!
+   (___)''
+   / ,_,/
+  /'"\ )\
+
+itz
+    HERE KITTY KITTY
+  end
+
+  def hungry_kitty
+    <<-'HERE KITTY KITTY'
+                                _.---.
+                      |\---/|  / ) ca|
+          ------------;     |-/ /|foo|---
+                      )     (' / `---'
+          ===========(       ,'==========
+          ||   _     |      |
+          || o/ )    |      | o
+          || ( (    /       ;
+          ||  \ `._/       /
+          ||   `._        /|
+          ||      |\    _/||
+        __||_____.' )  |__||____________
+         ________\  |  |_________________
+                  \ \  `-.
+                   `-`---'  hjw
     HERE KITTY KITTY
   end
 
