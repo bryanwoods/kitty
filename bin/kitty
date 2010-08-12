@@ -252,24 +252,11 @@ class Kitty
   end
 
   def all_kitties
-    [ night_kitty,
-      pounce_kitty,
-      face_kitty,
-      sleep_kitty,
-      chub_kitty,
-      curious_kitty,
-      proud_kitty,
-      stretch_kitty,
-      tail_kitty,
-      scared_kitty,
-      dumb_kitty,
-      crazy_kitty,
-      dominant_kitty
-    ]
+    methods.select { |m| m =~ /_kitty$/ }
   end
 
-  def random_kitty
-    print all_kitties[rand(all_kitties.length)]
+  def random
+    print send(all_kitties[rand(all_kitties.length)])
   end
 end
 
@@ -290,6 +277,6 @@ end.parse!
 
 kitty = Kitty.new
 options[:count].times do
-  kitty.random_kitty
+  kitty.random
 end
 
