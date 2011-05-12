@@ -2,7 +2,7 @@ require 'rubygems'
 
 SPEC = Gem::Specification.new do |s|
   s.name = "kitty"
-  s.version = "0.0.4"
+  s.version = "0.0.5"
   s.author = "Bryan Woods"
   s.email = "bryanwoods4e@gmail.com"
   s.platform = Gem::Platform::RUBY
@@ -11,8 +11,7 @@ SPEC = Gem::Specification.new do |s|
   s.rubyforge_project = "kitty"
   s.homepage = "http://github.com/bryanwoods/kitty"
   s.files = Dir.glob("**/*")
-  s.executables << "kitty"
-  s.require_path = "bin"
-  s.has_rdoc = false
+  s.bindir = 'bin'
+  s.executable = 'kitty'
 end
 
